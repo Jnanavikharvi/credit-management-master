@@ -1,0 +1,62 @@
+<html>
+<style type="text/css">
+body{
+ margin:0;
+ padding: 0;
+ font-family:sans-serif;
+ background-image: url("pay.jpg");
+ background-size: cover; 
+}
+form{
+width: 300px;
+position : absolute;
+top:50%;
+left:50%;
+transform: translate(-80%,-50%);
+color:gold;
+}
+table{
+color:purple;
+font-weight:bold;
+}
+
+</style>
+<body>
+<form action="transfer.php" method="POST">
+<center>
+<h2>TRANSFER CREDIT</h2>
+<table><tr><td align="left">
+Sender's Name</td><td><select name="sender">
+  
+  <option value="Abijna">Abijna</option>
+  <option value="Bhavana">Bhavana</option>
+  <option value="seetha">seeths</option>
+  <option value="vaishnav">vaishnav</option>
+  <option value="shanthi">shanthi</option>
+  <option value="manasa">manasa</option>
+  <option value="Geetha">Geetha</option>
+  <option value="kalyan">kalyan</option>  
+  <option value="raghu">raghu</option>
+  <option value="Jeevan">Jeevan</option>
+</select></td></tr>
+<tr><td>
+Receiver's Name</TD><td><select name="receiver">
+  
+  <option value="Ayra">Ayra</option>
+  <option value="Bhoomika">Bhoomika</option>
+  <option value="royal">royal</option>
+  <option value="Deeksha">Deeksha</option>
+  <option value="jeevika">jeevika</option>
+  <option value="riya">riya</option>
+  <option value="Girish">Girish</option>
+  <option value="Hithesh">Hithesh</option>  
+  <option value="Indira">Indira</option>
+  <option value="malathi">malathi</option>
+</select></TD></TR>
+<TR><TD>Credit</TD><TD><input type="text" name="credits"></TD></TR><br>
+</TABLE><input type="submit" value="TRANSFER">
+
+</form>
+
+</body>
+</html>
